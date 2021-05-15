@@ -25,7 +25,7 @@ To deploy and run this project, follow these instructions
 #### Access API Explorer
 To access the API Explorer go to the IP/Hostname of the system running it on port 3000.
 Give it a quick test by running the /hb API endpoint.
-  
+
 ## API Reference
 Warning!!! Subject to Change as the project develops.
 
@@ -34,7 +34,7 @@ Warning!!! Subject to Change as the project develops.
 ```http
   POST /new-tournament/{status}-{name}-{teams}-{scores}
 ```
-The Curley Brackes { } aren't required but the dashes - are. 
+The Curley Brackes { } aren't required but the dashes - are.
 | Parameter | Type     | Description (All Required) |
 | :-------- | :------- | :------------------------- |
 | `status`  | `string` | Current Status of the match (e.g: In progress, Win(Team)) |
@@ -68,10 +68,19 @@ The Curley Brackes { } aren't required but the dashes - are.
     GET /hb
 ```
 HeartBeat is meant to ensure you have a connection to the TurnAbout server instance to make changes.
-  
+
+
+## To be done
+
+- Redo the Create pathway to split team names and scores
+
+- Add intergrations for certain games like League of Legends, Apex Legends, etc.
+
+- Add/Fix update pathway to allow modification of exsisting game files.
+
+
 ## Authors
 - Morgan 'Astra' Lewis
     - [@ML-Astra](https://www.github.com/ML-Astra)
     - [Twitch](https://www.twitch.tv/ML_Astra)
 
-  
