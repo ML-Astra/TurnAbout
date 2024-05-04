@@ -80,7 +80,7 @@ HeartBeat is meant to ensure you have a connection to the TurnAbout server insta
 
 
 ## Authors
-- Morgan 'Astra' Lewis
+- Astralis Lewis
     - [@ML-Astra](https://www.github.com/ML-Astra)
     - [Twitch](https://www.twitch.tv/ML_Astra)
 
